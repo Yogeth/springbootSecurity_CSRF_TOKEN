@@ -5,5 +5,5 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Student{
-  private static String name;
+  private String name;
 }

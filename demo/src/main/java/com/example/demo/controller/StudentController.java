@@ -4,8 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 @RestController
 class StudentController{
-  @AutoWired
-  Student st;
+  @Autowired
+  Student st=new Student();
   @GetMapping("/name")
   public String getStudentName(){
     return st.getName();
