@@ -9,7 +9,7 @@ class StudentController{
   public String getStudentName(){
     return st.getName();
   }
-  @PostMapping("/name")
+  @PostMapping("/names")
   public void addStudentName(@RequestBody String stName){
       st.setName(stName);
   }
