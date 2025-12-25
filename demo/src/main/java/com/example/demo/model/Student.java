@@ -5,5 +5,5 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Student{
-  private String name="Yogeth";
+  private String name="Yoge";
 }
